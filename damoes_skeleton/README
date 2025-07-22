@@ -1,0 +1,41 @@
+# damoes_skeleton (だもえす_すけれとん): XAUUSD Scalping Master on M1 Timeframe 🚀
+
+## Overview
+
+Welcome to damoes_skeleton – an innovative Expert Advisor (EA) meticulously crafted to dominate the XAUUSD (Gold vs. US Dollar) market with high-precision scalping. Operating on the 1-minute timeframe, damoes_skeleton leverages Gold's intrinsic volatility to identify and execute lucrative micro-trading opportunities. This bot is built on a philosophy of consistently accumulating profits from the smallest market movements.
+
+## Key Features & Advantages
+
+- Accurate Turning Point Identification: Utilizes an advanced fractal detection algorithm (2 candles ahead and 2 candles behind) to pinpoint precise swing highs and swing lows, forming the foundation for strategic entries.
+
+- XAUUSD Specialization: Specifically engineered for the unique characteristics of the Gold pair, capitalizing on its high liquidity and volatility.
+
+- Ultra-Fast Execution: Operates on the 1-minute timeframe, ensuring speed and responsiveness to real-time market dynamics, ideal for aggressive scalping strategies.
+
+- Intelligent Spread Filter: Implements a strict spread filter to ensure trade execution only under optimal market conditions, preventing losses due to excessively wide spreads.
+
+- Clear Profit Targets: Each position is targeted for a fixed profit of IDR 5,000 per trade, designed for consistent profit accumulation from small market fluctuations.
+
+- Optimized Position Management: Limits simultaneous open positions to a maximum of 8 trades (4 buy and 4 sell), allowing for micro-scale risk diversification and exposure management.
+
+- Unique Risk Approach: This bot is designed with a unique risk management strategy that does not employ an explicit stop-loss. It is suited for traders with specific risk profiles and a deep understanding of market behavior, requiring active monitoring.
+
+## How damoes_skeleton Works (Core Strategy)
+
+damoes_skeleton continuously monitors the XAUUSD chart on the 1-minute timeframe. The core strategy includes:
+
+1. Automated Swing Detection: The bot constantly analyzes candle patterns to identify fractal formations, marking swing highs (peaks) and swing lows (troughs).
+
+2. Spread Filter: Before opening any position, the bot checks the current spread conditions. If the spread exceeds a predefined limit, the bot will delay entry to protect profitability.
+
+3. Entry Strategy:
+
+    - BUY: When a detected swing low forms, the bot seeks opportunities to open a buy position.
+
+    - SELL: When a detected swing high forms, the bot seeks opportunities to open a sell position.
+
+4. Lot Size & Profit Target: Each position is opened with a lot volume of 0.03 and is targeted for a fixed profit of IDR 5,000.
+
+5. Active Position Management: The bot manages up to 8 open positions concurrently (maximum 4 buys and 4 sells), ensuring diversification and adaptation to changing market conditions.
+
+6. No Explicit Stop-Loss: This bot does not utilize an explicit stop-loss. Its risk management strategy relies on position management and active monitoring, requiring user awareness and oversight.
